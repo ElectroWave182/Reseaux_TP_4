@@ -1,0 +1,27 @@
+Partie 4 : Observation du protocole ARP
+----------
+
+
+Questions :
+-----------
+
+
+A)
+
+Comme vu dans les détails de la requête ARP, seules les 3 premières couches sont solicitées,
+et les informations, telles que les adresses, concernant le protocole ARP se situent dans les couches 2 et 3.
+
+
+B)
+
+Afin de laisser le temps au commutateur de trouver l'adresse MAC qui correspond à l'IP du destinataire.
+
+
+C)
+
+Source :	  0060.5C57.9A5A
+Destination : FFFF.FFFF.FFFF
+
+La requête a été transmise en diffusion pour permettre de tomber sur le bon destinataire,
+grâce à l'exhaustivité ; en effet, le commutateur n'aurait pas pu trouver l'adresse MAC de destination
+dans le cas contraire, car sa table d'adresses MAC était vide au préalable.

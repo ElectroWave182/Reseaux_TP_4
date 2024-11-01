@@ -1,0 +1,25 @@
+Partie 5 : Mac flooding et mise en oeuvre de la sécurité des ports sur un switch
+----------
+
+
+Étape 2 : vérifier la sécurité des ports
+---------
+
+
+a)
+
+PC 0 : 0005.5EBC.14BA
+PC 1 : 0001.6426.ED4D
+
+
+g)
+
+4 violations se sont produites (1 pour chaque paquet envoyé).
+
+
+h)
+
+Grâce aux règles fixées lors des étapes b) et c), le commutateur enregistre la première adresse MAC
+qui a communiqué sur le port F0/1 : il s'agit de celle du PC 1.
+Et avec la règle de l'étape d), le commutateur bloque toute transmission concernant une adresse
+différente de celle enregistrée, comme par exemple celle de l'ordinateur portable.

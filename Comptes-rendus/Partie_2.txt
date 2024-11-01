@@ -1,0 +1,23 @@
+Partie 2 : Rappels de cours et exemple avec Wireshark
+----------
+
+
+Questions :
+-----------
+
+
+1)
+
+Le PC hôte a besoin de l'adresse MAC de son destinataire pour pouvoir lui envoyer des paquets (requête ping).
+Il va alors, avant tout, soliciter le protocole ARP pour cela, d'où l'exécution d'ARP à une couche supérieure à 2.
+
+
+2)
+
+EC-2E-98-BA-FD-D9
+
+
+3)
+
+FF-FF-FF-FF-FF-FF
+Il s'agit de l'adresse du broadcast.

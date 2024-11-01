@@ -1,0 +1,47 @@
+Partie 3 : Adresses MAC
+----------
+
+
+1-b)
+
+Les requêtes n'ont pas abouti, car l'adresse IP 192.168.10.1 n'avait pas été attribuée au commutateur S1.
+
+
+1-c)
+
+Après configuration, les requêtes ont finalement abouti.
+
+Switch VLAN 1 : 0060.479C.B100
+Ethernet PC 0 : 0090.2B69.E926
+Ethernet PC 1 : 000A.F37A.164C
+Ethernet PC 2 : 0001.6413.55C7
+
+
+
+Questions :
+-----------
+
+
+1)
+
+Non. (Mario, tout ça tout ça)
+
+
+2)
+
+Oui, cela est visible dans le mode "simulation" : dès que le commutateur rencontre une nouvelle association d'adresses,
+il l'ajoute dans la table, même en cours de requête.
+
+
+3)
+
+Il est possible d’avoir des diffusions au niveau de la couche 2.
+Le protocole ARP les utilisera ainsi pour trouver des informations d’adresse MAC.
+L’adresse de diffusion en couche est FF.FF.FF.FF.FF.FF.
+
+
+4)
+
+L'adresse IP n'est qu'un moyen logiciel de condenser toutes les adresses physiques de chaque port en une seule pour faciliter le requêtage ;
+mais les périphériques ont bel et bien besoin de savoir à quel port envoyer le paquet pour qu'il puisse être transmis réellement,
+d'où les adresses MAC.
